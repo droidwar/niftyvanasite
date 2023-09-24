@@ -89,22 +89,22 @@ export default function Home() {
             <li>
               <strong>PLA (Polylactic Acid):</strong> PLA is a biodegradable
               thermoplastic and one of the most commonly used materials for 3D
-              printing. It's known for its ease of use and minimal warping.
+              printing. It is known for its ease of use and minimal warping.
             </li>
             <li>
               <strong>ABS (Acrylonitrile Butadiene Styrene):</strong> ABS is
-              known for its durability and resistance to high temperatures. It's
+              known for its durability and resistance to high temperatures. It is
               commonly used in functional prototypes.
             </li>
             <li>
               <strong>PETG (Polyethylene Terephthalate Glycol):</strong> PETG
-              combines the best properties of both PLA and ABS. It's
+              combines the best properties of both PLA and ABS. It is
               easy-to-print and has good strength and durability.
             </li>
             <li>
               <strong>TPU (Thermoplastic Polyurethane):</strong> TPU is a
               flexible filament used for creating elastic and rubber-like
-              objects. It's popular in the production of flexible parts.
+              objects. It is popular in the production of flexible parts.
             </li>
           </ul>
         </div>
