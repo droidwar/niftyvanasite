@@ -5,9 +5,9 @@ import Header from '@/components/header'
 import Image from 'next/image'
 // Import images for each printer type
 import FDMImage from '../images/fdm-printer.jpg';
-import SLAImage from '../images/fdm-printer.jpg';
-import SLSImage from '../images/fdm-printer.jpg';
-import PolyJetImage from '../images/fdm-printer.jpg';
+import SLAImage from '../images/sla-printer.jpg';
+import SLSImage from '../images/sls-printer.jpg';
+import PolyJetImage from '../images/polyjet-printer.jpg';
 
 export default function Home() {
   return (
