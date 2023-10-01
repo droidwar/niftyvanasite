@@ -1,18 +1,15 @@
 "use client"
 
-import Footer from '@/components/footer'
-import Header from '@/components/header'
 import Image from 'next/image'
 // Import images for each printer type
-import FDMImage from '../images/fdm-printer.jpg';
-import SLAImage from '../images/sla-printer.jpg';
-import SLSImage from '../images/sls-printer.jpg';
-import PolyJetImage from '../images/polyjet-printer.jpg';
+import FDMImage from '../../images/fdm-printer.jpg';
+import SLAImage from '../../images/sla-printer.jpg';
+import SLSImage from '../../images/sls-printer.jpg';
+import PolyJetImage from '../../images/polyjet-printer.jpg';
 
 export default function Home() {
   return (
     <div>
-      <Header />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 text-white py-16">
         <div className="container mx-auto text-center">
@@ -140,10 +137,6 @@ export default function Home() {
           </ul>
         </div>
       </section>
-
-      {/* Other Content Sections */}
-      {/* ... (You can add more content sections here) */}
-      <Footer />
     </div>
     
   )
