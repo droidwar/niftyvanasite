@@ -17,7 +17,7 @@ export default function Home() {
           <p className="mt-4 text-lg">
             Your Source for 3D Printing Knowledge and Insights
           </p>
-          <button className="mt-8 bg-white text-blue-700 py-2 px-6 rounded-full font-semibold hover:bg-blue-100 hover:text-blue-900 transition duration-300">
+          <button className="mt-8 bg-background text-blue-700 py-2 px-6 rounded-full font-semibold hover:bg-blue-100 hover:text-blue-900 transition duration-300">
             Get Started
           </button>
         </div>
