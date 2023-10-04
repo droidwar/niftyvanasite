@@ -24,7 +24,15 @@ export type SiteConfig = {
     materialSupported: Array<string>; // Add or remove materials as needed
     price: number;              // in USD or any other currency
     layerResolution: number;   // in mm, e.g., 0.1
-    connectivity: 'USB' | 'Wi-Fi' | 'Ethernet' | 'SD Card' | 'Bluetooth' | 'Other';
+    connectivity: Array<string>;
     heatedBed: boolean;
     speed: number;              // in mm/s
+    extrusion: number;
+    maxBedTemp: number;
+    maxHotendTemp: number;
+    nozzle: string;
+    nozzleDiameter: number;
+    motionSystem: string;
+    technology: string;
+    enclosed: boolean;
   };

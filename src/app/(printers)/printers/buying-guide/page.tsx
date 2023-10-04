@@ -19,7 +19,7 @@ export default function PrinterFilter() {
            (filters.selectedMaterials.length === 0 || filters.selectedMaterials.some(material => printer.materialSupported.includes(material))) &&
            (!filters.price || printer.price <= filters.price) &&
            (!filters.layerResolution || printer.layerResolution <= filters.layerResolution) &&
-           (!filters.connectivity || printer.connectivity === filters.connectivity) &&
+           (!filters.connectivity || printer.connectivity.includes(filters.connectivity)) &&
            (!filters.heatedBed || printer.heatedBed === (filters.heatedBed === 'true')) &&
            (!filters.speed || printer.speed >= filters.speed);
     });
